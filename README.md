@@ -1,4 +1,4 @@
-# LDM Project for High-Quality Human Face Generation (HumanFaceGeneration)
+# LDM Project for High-Quality Human Face Generation (In Progress)
 
 This project is working on a Latent Diffusion Model (LDM) developed using the **VAE + Diffusion** architecture to generate high-quality human faces. Currently, the **VAE part is complete**, and active work is underway on the diffusion part. In later stages, the diffusion model will be integrated with the VAE to form a fully functional LDM.
 
