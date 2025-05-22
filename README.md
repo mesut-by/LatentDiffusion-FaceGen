@@ -6,7 +6,7 @@ This project is working on a Latent Diffusion Model (LDM) developed using the **
 
 ## Table of Contents
 - [About the Project](#about-the-project)
-- [Project Structure](#project-structure)
+- [Versions](#versions)
 - [Installation and Requirements](#installation-and-requirements)
 - [VAE Model Details](#vae-model-details)
 - [Training Process and Usage](#training-process-and-usage)
@@ -24,6 +24,15 @@ The main goal of this project is to use the **VAE + Diffusion** architecture to 
 - **Diffusion Part:** Currently under development; in the future, it will be integrated with the VAE to create a complete Latent Diffusion Model (LDM).
 
 ---
+
+##  Versions
+
+This repository contains two different architectural versions:
+
+- `main`: The advanced version integrating a VAE and UNet2D into a complete Latent Diffusion Model (LDM). It performs denoising in the latent space to generate high-quality human faces.
+
+- `only_vae`: The initial version features a standalone VAE designed to compress 512×512 images into a 64×64 latent space with minimal information loss. It reconstructs images from this latent space and was originally intended to accelerate future diffusion training by learning compact latent representations.
+
 
 ## Installation and Requirements
 
